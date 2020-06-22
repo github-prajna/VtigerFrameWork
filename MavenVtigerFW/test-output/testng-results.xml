@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Lead Created successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="190893" started-at="2020-06-20T05:15:09Z" finished-at="2020-06-20T05:18:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="190893" started-at="2020-06-20T05:15:09Z" finished-at="2020-06-20T05:18:20Z">
+      <class name="CreateLeadTestScript">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:CreateLeadTestScript@6a4f787b]" name="configBS" is-config="true" duration-ms="26" started-at="2020-06-20T05:15:09Z" finished-at="2020-06-20T05:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:CreateLeadTestScript@6a4f787b]" name="configBC" is-config="true" duration-ms="49266" started-at="2020-06-20T05:15:09Z" finished-at="2020-06-20T05:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:CreateLeadTestScript@6a4f787b]" name="configBM" is-config="true" duration-ms="69949" started-at="2020-06-20T05:15:58Z" finished-at="2020-06-20T05:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="creatLead()[pri:0, instance:CreateLeadTestScript@6a4f787b]" name="creatLead" duration-ms="68645" started-at="2020-06-20T05:17:08Z" finished-at="2020-06-20T05:18:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Lead Created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- creatLead -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:CreateLeadTestScript@6a4f787b]" name="configAM" is-config="true" duration-ms="2988" started-at="2020-06-20T05:18:17Z" finished-at="2020-06-20T05:18:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:CreateLeadTestScript@6a4f787b]" name="configAC" is-config="true" duration-ms="3" started-at="2020-06-20T05:18:20Z" finished-at="2020-06-20T05:18:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:CreateLeadTestScript@6a4f787b]" name="configAS" is-config="true" duration-ms="1" started-at="2020-06-20T05:18:20Z" finished-at="2020-06-20T05:18:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- CreateLeadTestScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

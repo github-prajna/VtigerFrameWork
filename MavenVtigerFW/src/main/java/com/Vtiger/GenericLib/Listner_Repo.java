@@ -8,31 +8,26 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import org.testng.internal.annotations.ITest;
 
- 
+import com.Vtiger.GenericLib.BaseClass;
 
-public class ListnerFunctionlality implements ITestListener   {
+public class Listner_Repo implements ITestListener {
 
-	 
 	public void onFinish(ITestContext  context) {
 		 
 		
 	}
 
-	 
 	public void onStart(ITestContext context) {
 		 
 		
 	}
 
-	 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 		 
 		
 	}
 
- 
 	public void onTestFailure(ITestResult result) {
 		String tcName=result.getMethod().getMethodName();
 		EventFiringWebDriver efwd= new EventFiringWebDriver(BaseClass.driver);
